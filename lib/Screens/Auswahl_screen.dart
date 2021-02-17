@@ -32,7 +32,7 @@ class AuswahlScreen extends StatelessWidget {
                     child: RaisedButton(
                       onPressed: () => buttonSportart(context),
                       child: Text(
-                        'spieler',
+                        'sportler',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25,
@@ -50,7 +50,7 @@ class AuswahlScreen extends StatelessWidget {
                     child: RaisedButton(
                       onPressed: () => buttonSportart(context),
                       child: Text(
-                        'verein',
+                        'personal',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25,
@@ -68,7 +68,7 @@ class AuswahlScreen extends StatelessWidget {
                     child: RaisedButton(
                       onPressed: () => buttonSportart(context),
                       child: Text(
-                        'personal',
+                        'verein',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25,
